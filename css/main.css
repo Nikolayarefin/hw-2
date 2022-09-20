@@ -39,7 +39,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color)
 }
 
 .webstudio-top {
@@ -51,7 +51,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color:var(--second-title-color)
 }
 
 .heder-mail,
@@ -66,13 +66,13 @@ body {
 .heder-link:hover,
 .heder-mail:hover,
 .heder-tel:hover {
-  color: #2196f3;
+  color:var(--accent-color)
 }
 
 .heder-link:focus,
 .heder-mail:focus,
 .heder-tel:focus {
-  color: #2196f3;
+  color:var(--accent-color)
 }
 /* ============BUTTON=========== */
 
@@ -82,7 +82,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color:var(--second-title-color)
 }
 /* ============OUR WORKS=========== */
 
@@ -91,12 +91,11 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color:var(--second-title-color)
 }
 
 .our-works-text {
-  font-weight: 400;
-  font-size: 16px;
+    font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
@@ -110,7 +109,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color:var(--accent-color)
 }
 
 .webstudio-bottom {
@@ -119,7 +118,6 @@ body {
 
 .footer-address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -128,7 +126,6 @@ body {
 
 .footer-mail,
 .footer-tel {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -137,5 +134,5 @@ body {
 
 .footer-mail:hover,
 .footer-tel:hover {
-  color: #2196f3;
+  color:var(--accent-color)
 }
